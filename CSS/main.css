@@ -34,14 +34,14 @@ nav {
   }
   
 .logo {
-    display: inline-block;
+    display:flow-root;
     font-size: 1.5em;
     font-weight: bold;
-    color: rgb(33, 31, 136);
+    color: rgb(102, 148, 125);
     text-decoration: none;
-    background-color:lightblue;
+    background-color:transparent;
     padding: 5px;
-    outline: auto;
+    outline:yellowgreen;
 }
 
 .logo:after{
@@ -72,11 +72,15 @@ body{
     right: 0;
 }
 
-footer{
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: transparent;
     padding: 20px;
+    font-size: 25px;
 }
 
 main {
