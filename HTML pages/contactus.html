@@ -2,7 +2,52 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="../CSS/main.css" type="text/css">
-        <title>Sahil's Website</title>
+        <title>Contact Us</title>
+        <style>
+            body {
+                text-align: center;
+            }
+            
+            form {
+                margin: auto;
+                max-width: 600px;
+            }
+            
+            label {
+                display: block;
+                margin-top: 20px;
+            }
+            
+            input,
+            textarea {
+                display: block;
+                width: 100%;
+                padding: 10px;
+                max-width: 600px;
+                min-width: 600px;
+                box-sizing: border-box;
+                border-radius: 5px;
+                border: none;
+                margin-bottom: 20px;
+                font-size: 16px;
+            }
+
+            .message{
+                min-height: 200px;
+            }
+            
+            input[type="submit"] {
+                background-color: #007bff;
+                color: #fff;
+                cursor: pointer;
+            }
+
+            fieldset{
+                display: block;
+                max-width: 700px;
+                margin: auto;
+            }
+        </style>
         <link rel="icon" href="Images/icon.ico" type="image/x-icon" >
     </head>
     <body>
@@ -10,21 +55,30 @@
             <nav>
                 <a class="logo" href="../main.html">Sahil's Website</a> 
                 <div>
-                    <a href="../main.html">Home</a>
-                    <a href="aboutus.html">About us</a>
-                    <a href="contactus.html">Contact us</a>
+                  <a href="../main.html">Home</a>
+                  <a href="aboutus.html">About us</a>
+                  <a href="contactus.html">Contact us</a>
                 </div>
               </nav>
-              
         </header>
-        <main>
-            <h1>
-                Contact Us
-            </h1>
-            <p>
-                <a href="mailto:s.kharoud6757@outlook.com" class="button">Email me</a>
-                <a href="tel:+91 7206899204" class="button">Call Me</a>
-            </p>
-        </main>
+        <h1>Contact Us</h1><p>(I don't use this mail and phone number anymore)</p>
+        <fieldset><legend>Email Me</legend>
+            <form method="post" action="mailto:sahilkharoud5@gmail.com">
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Your name  here" required><br>
+                    
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your email adress here." required><br>
+                    
+                <label for="message">Message:</label><br>
+                <textarea class="message" id="message" name="message" placeholder="Type your message here" required></textarea><br>
+                
+                <input type="submit" value="Send Mail">
+            </form>
+        </fieldset>
+        <p>OR</p>
+            <a class="button" href="tel:+91 7206899204"> Call Me</a>
+
     </body>
 </html>
