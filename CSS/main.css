@@ -65,13 +65,18 @@ body{
     background-size: cover;
     margin: 0;
     padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 footer{
+    display: flex;
+    justify-content: center;
     background-color: transparent;
-    font-size: small;
-    text-align: center;
-    padding: 1rem 0;
+    padding: 20px;
 }
 
 main {

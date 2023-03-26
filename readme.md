@@ -33,7 +33,7 @@
             }
             .instructions {
                 text-align: left;
-                max-width: 800px;
+                max-width: 650px;
                 margin: 0 auto;
                 padding: 50px;
             }
@@ -61,7 +61,7 @@
                 <h1>Welcome to my Website!</h1>
                 <p class="heading2">Thank you for visiting my website. Before you explore the site, please take a moment to read the following instructions:</p>
             </div>
-            <div class="instructions" style>
+            <div class="instructions">
                 <p>1. Please don't expect much. I am just coding this website for learning purposes only.</p>
                 <p>2. If in future I add some stuff like a login page, please don't use your actual passwords because I will have access to all of them.</p>
                 <p>3. I am just sharing it for I don't know why reasons.</p>
